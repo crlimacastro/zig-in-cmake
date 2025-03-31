@@ -1,0 +1,7 @@
+if(WIN32)
+    set(CMAKE_C_COMPILER "${CMAKE_SOURCE_DIR}/zigcc.bat")
+    set(CMAKE_CXX_COMPILER "${CMAKE_SOURCE_DIR}/zigc++.bat")
+else()
+    set(CMAKE_C_COMPILER "${CMAKE_SOURCE_DIR}/zigcc.sh")
+    set(CMAKE_CXX_COMPILER "${CMAKE_SOURCE_DIR}/zigc++.sh")
+endif()
