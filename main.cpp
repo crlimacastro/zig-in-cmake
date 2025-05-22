@@ -9,7 +9,7 @@ auto main() -> int
     {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawText("Congrats! You created your first window!", 190, 200, 20, BLACK);
+        DrawText("Congrats! You compiled this program with the zig compiler!", 190, 200, 20, BLACK);
         EndDrawing();
     }
     CloseWindow();

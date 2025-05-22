@@ -1,2 +1,2 @@
 #!/bin/sh
-exec zig c++ "$@"
+zig c++ "$@"

@@ -6,6 +6,7 @@
       "displayName": "Default Config",
       "description": "Default (Debug) build",
       "binaryDir": "${sourceDir}/build",
+      "generator": "Ninja",
       "toolchainFile": "${sourceDir}/zig-toolchain.cmake",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug"
